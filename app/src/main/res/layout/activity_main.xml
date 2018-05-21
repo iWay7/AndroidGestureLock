@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <site.iway.androidhelpers.GestureLock
+        android:id="@+id/gestureLock"
+        android:layout_width="282dp"
+        android:layout_height="282dp"
+        android:layout_gravity="center"
+        app:errorDrawable="@drawable/icon_gesture_error"
+        app:normalDrawable="@drawable/icon_gesture_normal"
+        app:routeColorError="#e93b39"
+        app:routeColorSelected="#bea473"
+        app:routeShrink="21.5dp"
+        app:routeWidth="2dp"
+        app:selectedDrawable="@drawable/icon_gesture_selected"
+        app:touchDetectRadius="21.5dp" />
+
+</FrameLayout>
