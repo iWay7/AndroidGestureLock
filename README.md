@@ -8,7 +8,7 @@ Android 手势锁。支持错误指示。
 ### 本示例基于 AndroidHelpers 库，访问 https://github.com/iWay7/AndroidHelpers 添加依赖。
 
 #### 开始使用：
-#####  准备正常图片资源，示例用 xml 配置。：
+#####  准备正常图片资源，示例用 xml 配置：
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <shape
@@ -24,7 +24,7 @@ Android 手势锁。支持错误指示。
 </shape>
 ```
 
-#####  准备选中图片资源，示例用 xml 配置。：
+#####  准备选中图片资源，示例用 xml 配置：
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list
@@ -49,7 +49,7 @@ Android 手势锁。支持错误指示。
 </layer-list>
 ```
 
-#####  准备错误图片资源，示例用 xml 配置。：
+#####  准备错误图片资源，示例用 xml 配置：
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list
